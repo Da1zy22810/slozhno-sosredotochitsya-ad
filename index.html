@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="theme-dark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light">
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/dark.css">
+    <link rel="stylesheet" href="./styles/light.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body class="page">
     <header class="header decorated-zone">
+      <div class="header__decorative-element" aria-hidden="true">REC</div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -35,6 +42,35 @@
           </li>
         </ul>
       </nav>
+      <h1 class="header__title">Сложно сосредоточиться</h1>
+      <p class="header__text title-decor">Верстаем по макету, подключаем шрифты, добавляем цвета — и всё это в двух темах. Не забываем про адаптив.</p>
     </header>
+    <main class="main">
+        <section class="section">
+            <h2 class="section__title">Почему так сложно сосредоточиться?</h2>
+            <div class="section__content">
+                <p>В современном мире нас окружает множество отвлекающих факторов. Социальные сети, уведомления, многозадачность — всё это мешает глубокой концентрации.</p>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section__title title-decor">Что делать?</h2>
+            <div class="section__content">
+                <p>Попробуйте <a href="#" class="link">технику Pomodoro</a>, выключайте уведомления и создайте себе рабочее пространство без отвлекающих факторов.</p>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2 class="gallery__title title-decor">Галерея фокуса</h2>
+            <div class="gallery__grid">
+                <img src="./images/sunset.png" alt="Закат в горах" loading="lazy" class="gallery__image">
+                <img src="./images/ice-cream.png" alt="Мороженое на пляже" loading="lazy" class="gallery__image">
+                <img src="./images/tape.png" alt="Кассета с музыкой" loading="lazy" class="gallery__image">
+                <img src="./images/books.png" alt="Книги на полке" loading="lazy" class="gallery__image">
+                <img src="./images/street.png" alt="Улица вечером" loading="lazy" class="gallery__image">
+            </div>
+        </section>
+    </main>
+    <footer class="footer decorated-zone">
+        <h2 class="footer__title">© 2023 Сложно сосредоточиться</h2>
+    </footer>
   </body>
 </html>
