@@ -12,6 +12,6 @@
   --bg-cover: url(../images/cover-image-dark.png);
   --font-main: "IBM Plex mono", monospace;
   --font-weight-default: 400;
-  --font-weight-heavy: 700;
+  --font-weight-heavy: 700; 
 }
  
