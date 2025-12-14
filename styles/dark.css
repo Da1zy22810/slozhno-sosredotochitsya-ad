@@ -15,6 +15,6 @@
 .theme-dark .page {
   --bg-cover: url(../images/cover-image-dark.png);
 }
-.theme-dark .header__rec {
+.theme-dark .header__rec { 
   display: block;
 }   
