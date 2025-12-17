@@ -1,6 +1,6 @@
 .page {
   min-block-size: 100vh;
-  font-family: var(--font-main);
+  font-family: var(--font-main); 
   font-weight: var(--font-weight-default);
   color: var(--text-main); 
   background-color: var(--background-page);
