@@ -10,7 +10,7 @@
   --button-hover-state: rgba(255, 0, 112, 0.4);
   --link-shadow-main: #ff0070;
   --bg-cover: url(../images/cover-image-dark.png);
-}
+} 
 
 .theme-dark .page {
   --bg-cover: url(../images/cover-image-dark.png);
